@@ -1,0 +1,246 @@
+/*****NAVBAR*****/
+.navbar1 {
+  margin-left: 87%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+
+.nav-link {
+  width: 210%;
+}
+
+/***Side Navbar****/
+.side-navbar {
+  width: 5%;
+  height: 100%;
+  position: fixed;
+}
+
+.sidenav {
+  width: 100%;
+  margin-top: 40%;
+}
+
+.home {
+  width: 60%;
+}
+.homeside{
+  margin-top: 150%;
+}
+.settingnav{
+  margin-top: 100%;
+}
+/**Main Body***/
+.name {
+  font-size: 170%;
+  margin-top: 3%;
+}
+
+.Namecolumn {
+  margin-left: 6%;
+}
+.akshat{
+  font-size: 25px;
+  padding: 1% 12% 1% 12%;
+  font-weight: bolder;
+  background-color: #E1E1E1;
+  border-radius: 100px;
+
+}
+.akshataa{
+  text-align: center;
+}
+/**Name row***/
+/**.akshat{
+  width:20%;
+  margin-right: 2%;
+  position: relative;
+}
+.akname{
+  position: absolute;
+  width:4%;
+  top:24.5%;
+  left:6.34%;
+
+}***/
+/***General Row**/
+.GeneralInfo{
+  margin-top: 7%;
+  font-weight: normal;
+  font-size: 150%;
+}
+.generalbuttons{
+  text-decoration: none;
+  color: black;
+  margin-left: 3%;
+  letter-spacing:1px;
+  padding:5% 10% 5% 10%;
+  border-radius:15px;
+}
+.generalbuttons:hover{
+  background-color: #E1E1E1;
+  color: black;
+}
+.vital{
+  margin-left: 20%;
+}
+.patient{
+  margin-left: 20%;
+}
+/**Diagnosis Column***/
+.name1 {
+  font-size: 170%;
+  width: 70%;
+  margin-left: 30%;
+}
+
+.Diagnosiscard {
+  margin-left: 30%;
+  margin-top: 7%;
+  padding-right: 15%;
+  padding-bottom: 20%;
+  width:50%;
+  background: #FFFFFF;
+  box-shadow: 1px 10px 23px #EBEEF2;
+  border-radius: 18px;
+}
+@media only screen and (max-width:700px) {
+  .btn{
+    margin-left:3%;
+    width: 95%;
+  }
+  .flex-column{
+    width:6%;
+  }
+  .navbar1 {
+    margin-left: 75%;
+  }
+
+  .nav-link {
+    width: 250%;
+  }
+  .name{
+    font-size: 115%;
+    margin-top: 5%;
+  }
+  .Namecolumn{
+    margin-left:18%;
+  }
+  .akshat{
+    padding: 0;
+  }
+  .homeside{
+    margin-top: 250%;
+  }
+  .home{
+    margin-top: 30%;
+    width: 40%;
+  }
+  .col-7{
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    margin-top:10%;
+
+  }
+  .generalbuttons{
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    letter-spacing:1px;
+    padding:2% 7% 2% 7%;
+    border-radius:15px;
+  }
+  .patient{
+    margin: 0;
+    padding: 1%;
+  }
+  .Diagnosiscolumn{
+    margin-left: auto;
+    margin-right: auto;
+    width:50%;
+  }
+  .GeneralInfo{
+    margin-left: auto;
+    margin-right: auto;
+    width:50%;
+  }
+  .akshat{
+    height:1.5em;
+    width:3em;
+  }
+  .akshataa{
+    font-size:70%;
+    margin-top: 3%;
+  }
+}
+
+@media only screen and (min-width:700px) and (max-width:900px){
+  .flex-column{
+    width:6%;
+  }
+  .home{
+    width:150%;
+  }
+  .name{
+    font-size:20px;
+  }
+  .Namecolumn{
+    margin-left:20%;
+    width:50%;
+  }
+  .generalbuttons{
+    margin-left:0;
+  }
+  .Diagnosiscolumn{
+    margin-left: auto;
+    margin-right: auto;
+    width:50%;
+  }
+  .name1{
+    text-align: center;
+    width: 90%;
+    margin-left:0;
+
+  }
+  .Diagnosiscard{
+    margin-left: 0;
+    width:90%;
+  }
+  .patient{
+    margin-left: 0;
+    padding: 2%;
+  }
+  .akshat{
+    height:1.5em;
+    width: 3.5em;
+  }
+  .akshataa{
+    font-size:80%;
+    margin-top: 3%;
+  }
+}
+
+@media only screen and (min-width:900px) and (max-width:1200px){
+  .Diagnosiscard{
+    width:75%;
+  }
+  .home{
+    width:100%;
+  }
+  .name{
+    font-size:140%;
+  }
+  .patient{
+    margin-left: 0;
+    padding: 0;
+  }
+  .akshat{
+    height:2em;
+    width: 5em;
+  }
+  .akshataa{
+    font-size:85%;
+    margin-top: 3%;
+  }
+}

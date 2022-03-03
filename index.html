@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Patient Name</title>
+  <!--CSS LINK-->
+  <link rel="stylesheet" href="styles.css">
+  <!--Boostrap Link-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+</head>
+<main>
+
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color:#C4C4C4;">
+      <div class="container-fluid">
+        <div class="navbar1">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <div class="nav-link active" aria-current="page" href="#" style="background-color:#FCDDEC; color:#FCDDEC;">Home</div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="side-navbar active-nav d-flex justify-content-between flex-wrap flex-column" id="sidebar">
+      <ul class="nav flex-column text-white w-100">
+        <li href="#" class="homeside sidenav nav-link">
+          <span class="mx-2"><a href=""><img class="home1 home" src="Images\homeicon.png" alt=""></a></span>
+        </li>
+        <li href="#" class="sidenav nav-link">
+          <span class="mx-2"><a href=""><img class="home  icon sthetiscope" src="Images\sthetiscope.png" alt=""></a></span>
+        </li>
+        <li href="#" class="sidenav nav-link">
+          <span class="mx-2"><a href=""><img class="home icon " src="Images\Calicon.png" alt=""></a></span>
+        </li>
+        <li href="#" class="sidenav nav-link">
+          <span class="mx-2"><a href=""><img class="home chat icon " src="Images\Chaticon.png" alt=""></a></span>
+        </li>
+        <li href="#" class="settingnav sidenav nav-link">
+          <span class="mx-2"><a href=""><img class="home chat icon " src="Images\Settingicon.png" alt=""></a></span>
+        </li>
+        <li href="#" class="sidenav nav-link">
+          <span class="mx-2"> <a href=""><img class="mobile home chat icon " src="Images\mobile.png" alt=""></a></span>
+        </li>
+      </ul>
+    </div>
+    <div class="namerow row" style="margin-top:3%;">
+      <div class="Namecolumn col-8 col-sm-9 col-md-7 col-lg-7">
+        <div class="row">
+          <div class="akshat col-2 col-sm-1 col-md-1 col-lg-1">
+            <p class="akshataa">AA</p>
+          </div>
+          <div class="col-10 col-sm-7 col-md-7 col-lg-7">
+            <h1 class="name">Akshat Aggarwal <span style="font-weight:lighter; margin-left:1%; margin-right:1%;">|</span> 21 years</h1>
+          </div>
+          <div class="col-12 col-sm-4 col-md-4 col-lg-4">
+            <div class=" dropdown">
+              <a class="btn btn-primary" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false"
+                style="padding: 2% 20% 2% 20%; background: linear-gradient(180deg, #088DFF 0%, #066AC3 100%);box-shadow: 4.24544e-16px 6.93333px 13.8667px rgba(51, 51, 51, 0.1245);border-radius: 24px;margin-top:7%;">
+                Add Now
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <h2 class="GeneralInfo">General Info</h2>
+        <div class="row" style="margin-top:3%">
+          <div class="generalpatient col-7 col-sm-3 col-md-3 col-lg-3">
+            <a class="generalbuttons patient" href="">Patient Info</a>
+          </div>
+          <div class="generalpatient col-7 col-sm-2 col-md-2 col-lg-2">
+            <a class="generalbuttons vital" href="">Vitals</a>
+          </div>
+          <div class="generalpatient col-7 col-sm-1 col-md-1 col-lg-1">
+            <a class="generalbuttons" href="">Labs</a>
+          </div>
+          <div class="generalpatient col-7 col-sm-3 col-md-3 col-lg-3">
+            <a class="generalbuttons patient" href="">Medications</a>
+          </div>
+          <div class="generalpatient col-7 col-sm-3 col-md-3 col-lg-3">
+            <a class="generalbuttons patient" href="">Prescriptions</a>
+          </div>
+
+        </div>
+        <h2 class="GeneralInfo">Contact Info</h2>
+        <table class="table">
+          <tbody>
+            <tr>
+              <td>Address</td>
+              <td><strong>Mumbai, Maharashtra,India</strong></td>
+            </tr>
+            <tr>
+              <td>Email Address</td>
+              <td><strong>radha@gmail.com</strong></td>
+            </tr>
+            <tr>
+              <td>Contact Number</td>
+              <td><strong>+91 9745647112</strong></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="Diagnosiscolumn col-12 col-sm-8 col-md-4 col-lg-4">
+        <h1 class="name1">Latest Diagnosis</h1>
+        <div class="card Diagnosiscard" style="border-radius:18px;">
+          <div class="card-body">
+            No Diagnosis
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  </body>
+</main>
+
+</html>
